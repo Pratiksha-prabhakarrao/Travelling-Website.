@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVANTURE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">ADVANTURE</h1>
+        <ul class="nav-links">
+            <li class="avtive"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>contact</li>
+            
+        </ul>
+        <img src="btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-cont">
+            <h2>Explore The colourful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFTS</h1>
+            <a href="#" class="ctn">Lern More</a>
+        </div>
+    </header>
+
+    <!--events-->
+    <section class="Events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+           <div class="col">
+               <img src="img1.png" alt="">
+               <h4>Everest Camp Trik</h4>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam vel minus repellat officia</p>
+               <a href="#" class="ctn">Learn More</a>
+           </div>
+           <div class="col">
+            <img src="img2.png" alt="">
+            <h4>Walking Holidays</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam vel minus repellat officia</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+        </div>
+    </section>
+
+    <section class="explore">
+       <div class="explore-content">
+        <h1>Explore The World</h1>
+        <div class="line"></div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae et perferendis, magnam consequuntur, maiores rem iste facere sequi dolores dolor expedita magni tenetur illo aspernatur deleniti soluta quod tempore temporibus?</p>
+        <a href="#" class="ctn">Lern More</a>
+       </div> 
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS &<br>DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure fugiat odit ducimus saepe vitae dolorum aspernatur officiis ad hic pariatur qui, quis veritatis voluptatibus velit, reiciendis voluptates sint eveniet cumque.</p>
+                <a href="#" class="ctn">Lern More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="img3.png" alt="">
+                    <img src="img4.png" alt="">
+                    <img src="img5.png" alt="">
+                    <img src="img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        <p>copyright section </p>
+    </section>
+
+    
+
+    <script>
+        const menuBtn = dacument.querrySelector('.menu-btn')
+        const navlinks = dacument.querrySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=){
+            navlinks.classList.toggle('mobile-menu')
+        }
+    </script>
+
+</body>
+</html>
